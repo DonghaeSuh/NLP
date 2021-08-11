@@ -4,7 +4,7 @@ from gensim.corpora.wikicorpus import tokenize
 in_f ="/notebooks/embedding/data/raw/kowiki-latest-pages-articles.xml.bz2"
 out_f="/notebooks/embedding/data/processed.processed_wiki_ko.txt"
 output =open(out_f,'w', encoding ='utf-8')
-wiki =WikiCorpus(in_f,tokenizer_func=tokenize,dictionary=Dictionary())
+wiki =WikiCorpus(in_f,tokenizer_func=tokenize/dictionary=Dictionary())
 
 def main():
     i=0
